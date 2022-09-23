@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,400;1,700&display=swap');
+@font-face {
+   font-family: 'B52';
+   src: url("../fonts/B52.woff2") format('woff2'),
+       url("../fonts/B52.woff") format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Montserrat';
+   src: url("../fonts/Montserrat-Italic.woff2") format('woff2'),
+       url("../fonts/Montserrat-Italic.woff") format('woff');
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url("../fonts/Montserrat-BlackItalic.woff2") format('woff2'),
+       url("../fonts/Montserrat-BlackItalic.woff") format('woff');
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url("../fonts/Montserrat-Regular.woff2") format('woff2'),
+       url("../fonts/Montserrat-Regular.woff") format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   margin: 0 15px;
+   font-family: 'Montserrat', serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+}
+p {
+   text-indent: 20px;
+   margin-bottom: 10px;
+}
+header{
+   margin: 15px 0;
+}
+.text {
+   font-family: 'B52';
+   color: coral;
+   text-align: right;
+   font-size: 25px;
+}
+.title {
+   margin-bottom: 10px;
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: underline;
+   font-weight: 900;
+   font-style: italic;
+   color: rgb(218, 87, 12);
+   text-shadow: 5px 5px 10px #0bcad8;
+
+}
+.section {
+   margin-bottom: 50px;
+}
+.popularization-text {
+   font-style: italic;
+   text-transform: lowercase;
+   letter-spacing: 5px;
+}
+.popularization-texts{
+   text-align: center;
+   word-spacing: 25px;
+}
+.popularization span {
+   text-decoration: overline;
+}
+.modernity {
+   text-align: justify;
+   text-transform: capitalize;
+
+}
+.typewriter-img {
+   margin: 0 50%;
+   width: 600px;
+}
+
+.modernity-text, 
+.new-opportunities-text {
+   font-family: 'Philosopher', sans-serif;
+   font-weight: 700;
+   font-style: italic;
+   color: #0bcad8;
+}
+.typewriter-tree-img {
+   width: 600px;
+   margin: 0 auto;
+}
+.new-opportunities span {
+   text-decoration: line-through;
+}
+.new-opportunities-text {
+   font-weight: 400;
+}
+footer {
+   margin: 15px 0 15px 70%;
+}
+.footer-nav {
+   padding: 10px;
+   text-decoration: underline;
+   font-family: 'Philosopher', sans-serif;
+   font-weight: 400;
+   text-align: center;
+}
